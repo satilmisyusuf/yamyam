@@ -411,7 +411,7 @@ $echotmp2=0;
 function KelimeSay($kelimeler, $Url)
 {
     try {
-        $db = new PDO("mysql:host=94.73.150.57;dbname=yusufsatilmis;charset=utf8", "yusufsatilmis", "?-Twh%-SQ-Nf");
+        $db = new PDO("mysql:host=db_adress;dbname=dbname;charset=utf8", "user", "password");
        // echo "BAŞARILI BAĞLANTI";
     } catch ( PDOException $e ){
         print $e->getMessage();
